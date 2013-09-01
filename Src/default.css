@@ -1,0 +1,95 @@
+/* Blog Backup Viewer 用的 CSS 檔 */
+body {
+	background: #eee;
+	font-family: Tahoma;
+	line-height: 1.5em;
+}
+a:link, a:visited {
+	text-decoration: none;
+}
+a:hover {
+	background: #ff3
+}
+code, pre {
+	font-family: Courier, Serif, MingLiu, "細明體";
+}
+
+code, blockquote {
+    border-left: 2px solid #838383;
+    padding-left: 1em;
+}
+blockquote blockquote {
+    border-left: 1px dashed grey;
+}
+/* 最上頭那條文章標題 */
+.header {
+	background: #ff9;
+	text-align: center;
+	font-weight: bold;
+	margin: 0.2em 0;
+	padding: 0.2em 0;
+	font-size: 140%;
+	border: 1px black;
+	border-style: solid none;
+}
+.header a {
+	display: block;
+}
+
+/* 文章內容 */
+.content {
+	margin: 1em 0;
+	padding: 0.5em 1em;
+}
+
+/* 文章發表日期 */
+.content-date {
+	text-align: right;
+	font-weight: bold;
+	color: gray;
+	border-top: 1px dashed black;
+	margin-top: 0.5em;
+	padding-top: 0.5em;
+}
+
+/* 引用列表 */
+.traceback-header {
+	background-color: #ddd;
+	font-size: 120%;
+	font-weight: bolder;
+}
+
+/* 每一筆引用內容 */
+.traceback-body {
+	background-color: #d6e1f5;
+	margin-top: 1em;
+	padding: 0.5em 1em;
+}
+
+/* 每一筆引用結尾，日期 */
+.traceback-foot {
+	text-align: right;
+	background-color: #fff;
+	color: gray;
+}
+
+/* 回應 */
+.comment-header {
+	background-color: #ddd;
+	font-size: 120%;
+	font-weight: bolder;
+}
+
+/* 每一筆回應內容 */
+.comment-body, .comment-reply-body {
+	background-color: #d6e1f5;
+	margin-top: 1em;
+	padding: 0.5em 1em;
+}
+
+/* 每一筆回應結尾，日期跟 EMail 那一列 */
+.comment-foot, .comment-reply-foot {
+	text-align: right;
+	background-color: #fff;
+	color: gray;
+}
