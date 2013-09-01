@@ -13,6 +13,13 @@
 * 這是我在 2008 年開發的小玩具，本程式已經停止開發，有任何建議或使用上遇到任何問題，請 ***不要回報***。
 * 請不要問我哪裡找得到 Borland C++ Builder 6 或 TntWare Delphi Unicode Controls，我也不知道。
 
+使用說明
+=======
+
+* 本程式操作方式可以參考[使用說明](./Doc/使用說明.md)。
+* 單純只是想下載執行檔或原始碼，可以來這裡[打包下載](https://github.com/chiahsien/BlogBackupViewer/releases)。
+* 歡迎 fork！
+
 程式擷圖
 =======
 ![image](./Screenshots/BBV-04.jpg)
